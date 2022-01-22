@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+.arlinks{
+    list-style-type: none;
+    background-color: rgb(255, 47, 245);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    padding-right: 2.5%;
+    list-style-type: none;
+    float: right;
+}
+nav li a{
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+nav li a:hover{
+    background-color: rgb(224, 255, 47);
+}
+.upper img {
+    margin-right: 20%;
+    background-color: aqua;
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border: solid rgb(255, 47, 245);
+    padding: 3px;
+    border-radius: 50%;
+        
+}
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 40vh;
+    
+}
+hr{
+    color: solid rgb(255, 47, 245);
+}
+.upper-low1{
+    margin-left: 2%;
+    margin-right: 28%;
+    float: left;
+}
+.upper-low1 h2{
+    color: rgb(255, 47, 245);
+}
+.upper-low1 h3{
+    color: black;
+}
+.upper-low1 h4{
+    color: rgb(255, 47, 245);
+}
+.upper-low2{
+    padding: 5px;
+    margin-left: 20px;
+}
+.upper-low2 li{
+    padding: 4px;
+    list-style-type: georgian;
+    color: #fff;
+}
+.upper-low2 h2{
+    color: #fff;
+}
+aside{
+    float: right;
+}
+aside li{
+    color: #fff;
+}
+aside h2{
+    color: #fff;
+}
